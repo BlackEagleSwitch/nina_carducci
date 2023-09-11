@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+	font-style: normal;
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+body {
+	max-width: 1920px;
+	margin: auto;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
