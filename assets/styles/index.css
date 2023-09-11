@@ -1,3 +1,6 @@
+
+/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,4 +28,48 @@ ul {
 a {
     color: black;
     text-decoration: none;
+}
+
+/* --------------------------------------------------------------- */
+
+header {
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+
+    background-color: white;
+    padding: 30px 100px;
+
+    position: fixed;
+	z-index: 10;
+    top:0;
+}
+
+header h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+header nav {
+    
+}
+
+nav ul {
+    display: flex;
+    font-size: 14px; 
+    margin-bottom: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+.social-link img {
+    width: 20px;
+    height: 20px;
+}
+
+#carouselExampleIndicators {
+    margin-top: 100px;
 }
