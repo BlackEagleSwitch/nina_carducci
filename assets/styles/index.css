@@ -89,14 +89,16 @@ nav ul li {
     display: flex;
 
     width: 374px;
-	height: 329px;
-
-	background-color: #E5975F;
+	height: 329px;	
 	
 	position: absolute;
-    bottom: -100px;
-	left: -120px;	
+    bottom: -100px;		
 	z-index: -1;
+}
+
+.picture.one::before {
+    background-color: #E5975F;
+    left: -120px;
 }
 
 .picture {
@@ -135,14 +137,17 @@ nav ul li {
 
 #about-me p {
     width: 80%;
-	font-size: 14px;
+	font-size: 15px;
 }
+
+/* --------------------------------------------------------------- */
 
 .portfolio h2 {
     font-size: 1.75rem;
 	text-align: center;
 	padding: 2em 0;
 }
+
 
 .portfolio .container_btn-filter {
     display: flex;
@@ -159,6 +164,7 @@ nav ul li {
     background-color: #BEB45A;
     color: white;
 }
+
 
 .gallery {
     width: 100%;
@@ -180,4 +186,122 @@ nav ul li {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+figure {
+    font-family: 'Spectral';
+	font-style: italic;
+	width: 70%;
+	margin: 35px auto 30px;
+	padding-block: 3em;
+} 
+
+.quote__text {
+	font-family: Spectral;
+	font-style: italic;
+	font-weight: 300;
+    font-size: 2.12rem;
+
+}
+.quote__author {
+	font-family: Spectral;
+	font-weight: 800;
+	font-size: 22px;
+}
+
+
+#services {
+	margin: auto;
+	position: relative;
+	background-color: #A8D5D8;
+}
+#services .container::before{
+	content: '';
+	width: 100%;
+	height: 30%;
+
+	background-color: #1C6474;
+
+	position: absolute;
+	z-index: 0;
+
+	bottom: 0;
+	left: 0;
+}
+
+#services .container {
+    display: flex;
+	justify-content: space-between;
+
+	padding : 2em 0;
+
+}
+
+.service {
+	width: 30%;
+	height: 337px;
+	max-width: 390px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+    background-color: white;
+	padding: 1em;
+	z-index: 1;
+}
+
+#contact {
+	margin: auto;
+	background-color: #D8D3A8 ;
+
+	padding-inline: 100px;
+	padding-block: 100px;
+}
+
+#contact .container {
+	display: flex;
+}
+
+.picture.right {
+    position: relative;
+}
+
+.picture.two::before {
+    background-color: #BEB45A;
+    right: -132px;
+}
+
+.form-container {
+	flex : 2;
+
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	align-items: flex-start;
+}
+
+form input {
+	width: 100%;
+	background-color: transparent;
+	border: solid 1px;
+	height: 2.5em;
+	margin-bottom: 20px;
+}
+
+form textarea {
+	width: 100%;
+	background-color: transparent;
+	border: solid 1px;
+	height: 5em;
+	line-height: 2.5em;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	background-color: #BEB45A;
+	padding: .5em 1em
 }
