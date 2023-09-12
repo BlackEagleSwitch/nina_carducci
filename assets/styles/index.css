@@ -101,10 +101,6 @@ header nav ul li a {
 	width: 80%;
 	font-size: 14px;
 }
-
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -113,10 +109,10 @@ header nav ul li a {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #000000;
-	outline: 1px solid #000000;
+	border: none;
+	color: white;
 	border-radius: 0;
-	background-color: transparent;
+	background-color: #f6d2b8;
 }
 .nav-pills .nav-link {
 	color: #000;
