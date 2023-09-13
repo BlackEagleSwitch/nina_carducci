@@ -5,12 +5,13 @@
 
 body {
 	max-width: 1920px;
-	margin: auto;
+	margin: 100px auto 0;
 }
 
 header nav {
+	width: 100%;
 	background-color: white;
-	position: sticky;
+	position: fixed;
 	top:0;
 	z-index: 1000;
 	display: flex;
@@ -112,7 +113,7 @@ header nav ul li a {
 	border: none;
 	color: white;
 	border-radius: 0;
-	background-color: #f6d2b8;
+	background-color: #BEB45A;
 }
 .nav-pills .nav-link {
 	color: #000;
@@ -157,6 +158,8 @@ header nav ul li a {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 37.3px;
+	line-height: 44.5px;
 
 }
 .quote__author {
@@ -198,6 +201,10 @@ header nav ul li a {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.service__price p {
+	font-size: 1.5rem;
 }
 
 #contact {
@@ -268,6 +275,10 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	.about-me__introduction {
+		width: unset;
+		font-size: 16px;
+	}	
 }
 
 @media all and (max-width: 1000px) {
@@ -355,6 +366,15 @@ input[type="submit"] {
 	#about, #contact {
 		padding-inline: 2em;
 		padding-block: 2em;
+	}
+	.gallery .nav-item {
+		padding: 0 10px;
+	}
+	.quote p {
+		font-size: 1.75em;
+	}
+	.form-container h2 {
+		font-size: 1.4em;
 	}
 	form {
 		width: 100%;
