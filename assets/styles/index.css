@@ -50,8 +50,14 @@ header nav ul li a {
 	height: 100%;
 }
 
+.social-link {
+	width: 20px;
+	height: 20px;
+}
+
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
